@@ -2,6 +2,7 @@ import type React from "react"
 import type { Metadata } from "next"
 import { Outfit } from "next/font/google"
 import "@/styles/globals.css"
+import { Toaster } from "@/components/ui/toaster"
 
 const outfit = Outfit({
   subsets: ["latin"],
@@ -67,6 +68,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${outfit.variable} font-sans antialiased`}>{children}</body>
+      <Toaster />
     </html>
   )
 }

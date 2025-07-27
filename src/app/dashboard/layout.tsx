@@ -1,30 +1,3 @@
-// // app/docs/layout.tsx
-// import type React from "react"
-// import { AppSidebar } from "@/layout/app-sidebar"
-// import { SidebarInset, SidebarProvider } from "@/components/ui/sidebar"
-// import { DesktopHeader } from "@/layout/desktop-header"
-// import { MobileHeader } from "@/layout/mobile-header"
-
-// export default function DocsLayout({
-//   children,
-// }: {
-//   children: React.ReactNode
-// }) {
-//   return (
-//     <SidebarProvider>
-//       <div className="flex min-h-screen flex-col">
-//         <MobileHeader />
-//         <DesktopHeader />
-//         <div className="flex flex-1">
-//           <AppSidebar />
-//           <SidebarInset>
-//             <main className="flex-1 overflow-y-auto p-6">{children}</main>
-//           </SidebarInset>
-//         </div>
-//       </div>
-//     </SidebarProvider>
-//   )
-// }
 
 // app/docs/layout.tsx
 import type React from "react";
